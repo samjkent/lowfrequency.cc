@@ -24,8 +24,7 @@ url: "https://lowfrequency.cc" # the base hostname & protocol for your site, e.g
 markdown: kramdown
 theme: minima
 gems:
+  - jekyll-postfiles
 exclude:
   - Gemfile
   - Gemfile.lock
-plugins:
-  - jekyll-postfiles
