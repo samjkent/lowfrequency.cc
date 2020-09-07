@@ -5,12 +5,21 @@
 
 body {
     min-height: 100vh;
+    text-transform: lowercase;
 }
 
 div.post-featured-image {
     min-height: 80vh;
     background-size: cover;
     background-position: center;
+    justify-content: flex-end;
+    display: flex;
+    align-items: flex-end;
+    color: #fff;
+}
+
+div.post-featured-image span {
+    padding: 1em;
 }
 
 .page-content {
@@ -54,4 +63,12 @@ a.category-post-wrapper {
     color: #fff;
     font-size: 3rem;
     font-weight: 100;
+}
+
+.who {
+    margin: 0;
+}
+
+.who li {
+    display: inline;
 }
