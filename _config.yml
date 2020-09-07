@@ -27,3 +27,5 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+plugins:
+  - jekyll-postfiles
