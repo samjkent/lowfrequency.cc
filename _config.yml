@@ -23,7 +23,7 @@ url: "https://lowfrequency.cc" # the base hostname & protocol for your site, e.g
 # Build settings
 markdown: kramdown
 theme: minima
-plugins:
+plugins_dir:
   - jekyll-postfiles
 exclude:
   - Gemfile
