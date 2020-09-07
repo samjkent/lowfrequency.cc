@@ -4,12 +4,12 @@ layout: default
 <div class="big-panels">
 <div class="climb home-panel">
 {% for post in site.categories.climb limit:1 %}
-<a href="/climb" style="background-image: url('{{ post.permalink }}/{{ post.featured}}')">CLIMB</a>
+<a href="/climb" style="background-image: url('{{ post.permalink }}{{ post.featured}}')">CLIMB</a>
 {% endfor %}
 </div>
 <div class="cycle home-panel">
 {% for post in site.categories.cycle limit:1 %}
-<a href="/cycle" style="background-image: url('{{ post.permalink }}/{{ post.featured}}')">CYCLE</a>
+<a href="/cycle" style="background-image: url('{{ post.permalink }}{{ post.featured}}')">CYCLE</a>
 {% endfor %}
 </div>
 </div>
