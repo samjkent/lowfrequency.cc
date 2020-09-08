@@ -20,3 +20,5 @@ jobs:
         uses: calibreapp/image-actions@master
         with:
           githubToken: ${{ secrets.JEKYLL_PAT }}
+          jpegProgressive: true
+          jpegQuality: 70
