@@ -26,6 +26,7 @@ markdown: kramdown
 theme: minima
 plugins_dir:
   - jekyll-postfiles
+  - jekyll-leaflet
 exclude:
   - Gemfile
   - Gemfile.lock
