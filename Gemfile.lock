@@ -19,6 +19,7 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
+    jekyll-leaflet (0.2.1)
     jekyll-postfiles (2.1.1)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
@@ -52,6 +53,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (= 3.4.3)
   jekyll-feed (~> 0.6)
+  jekyll-leaflet
   jekyll-postfiles
   minima (~> 2.0)
   tzinfo-data
