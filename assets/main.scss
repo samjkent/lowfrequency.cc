@@ -72,3 +72,7 @@ a.category-post-wrapper {
 .who li {
     display: inline;
 }
+
+.leaflet-map {
+    pointer-events: none;
+}
