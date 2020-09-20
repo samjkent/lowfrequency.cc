@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="https://lowfrequency.cc/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lowfrequency.cc/" rel="alternate" type="text/html" /><updated>2020-09-20T09:22:53+00:00</updated><id>https://lowfrequency.cc/feed.xml</id><title type="html">Low Frequency</title><subtitle>Infrequent cyclists and climbers
-</subtitle><author><name>@</name></author><entry><title type="html">Castleton Loop</title><link href="https://lowfrequency.cc/cycle/castleton-loop/" rel="alternate" type="text/html" title="Castleton Loop" /><published>2020-09-06T00:00:00+00:00</published><updated>2020-09-06T00:00:00+00:00</updated><id>https://lowfrequency.cc/cycle/castleton-loop</id><content type="html" xml:base="https://lowfrequency.cc/cycle/castleton-loop/">&lt;p&gt;A lap around Edale and Castleton&lt;/p&gt;</content><author><name>@</name></author><category term="cycle" /><summary type="html">A lap around Edale and Castleton</summary></entry><entry><title type="html">Forcan Ridge</title><link href="https://lowfrequency.cc/climb/forcan-ridge/" rel="alternate" type="text/html" title="Forcan Ridge" /><published>2020-09-06T00:00:00+00:00</published><updated>2020-09-06T00:00:00+00:00</updated><id>https://lowfrequency.cc/climb/forcan-ridge</id><content type="html" xml:base="https://lowfrequency.cc/climb/forcan-ridge/"></content><author><name>@</name></author><summary type="html"></summary></entry><entry><title type="html">Isle Of Mull</title><link href="https://lowfrequency.cc/cycle/isle-of-mull/" rel="alternate" type="text/html" title="Isle Of Mull" /><published>2020-09-06T00:00:00+00:00</published><updated>2020-09-06T00:00:00+00:00</updated><id>https://lowfrequency.cc/cycle/isle-of-mull</id><content type="html" xml:base="https://lowfrequency.cc/cycle/isle-of-mull/">&lt;p&gt;Overnight trip to Mull&lt;/p&gt;</content><author><name>@</name></author><category term="cycle" /><summary type="html">Overnight trip to Mull</summary></entry><entry><title type="html">Loch Ness</title><link href="https://lowfrequency.cc/cycle/loch-ness/" rel="alternate" type="text/html" title="Loch Ness" /><published>2020-09-06T00:00:00+00:00</published><updated>2020-09-06T00:00:00+00:00</updated><id>https://lowfrequency.cc/cycle/loch-ness</id><content type="html" xml:base="https://lowfrequency.cc/cycle/loch-ness/">&lt;div id=&quot;leaflet-map-2b94edbfce7c0f053c464f31fbc1c9a2&quot; class=&quot;leaflet-map&quot;&gt;&lt;/div&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="https://lowfrequency.cc/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lowfrequency.cc/" rel="alternate" type="text/html" /><updated>2020-09-20T09:23:35+00:00</updated><id>https://lowfrequency.cc/feed.xml</id><title type="html">Low Frequency</title><subtitle>Infrequent cyclists and climbers
+</subtitle><author><name>@</name></author><entry><title type="html">Castleton Loop</title><link href="https://lowfrequency.cc/cycle/castleton-loop/" rel="alternate" type="text/html" title="Castleton Loop" /><published>2020-09-06T00:00:00+00:00</published><updated>2020-09-06T00:00:00+00:00</updated><id>https://lowfrequency.cc/cycle/castleton-loop</id><content type="html" xml:base="https://lowfrequency.cc/cycle/castleton-loop/">&lt;p&gt;A lap around Edale and Castleton&lt;/p&gt;</content><author><name>@</name></author><category term="cycle" /><summary type="html">A lap around Edale and Castleton</summary></entry><entry><title type="html">Forcan Ridge</title><link href="https://lowfrequency.cc/climb/forcan-ridge/" rel="alternate" type="text/html" title="Forcan Ridge" /><published>2020-09-06T00:00:00+00:00</published><updated>2020-09-06T00:00:00+00:00</updated><id>https://lowfrequency.cc/climb/forcan-ridge</id><content type="html" xml:base="https://lowfrequency.cc/climb/forcan-ridge/"></content><author><name>@</name></author><summary type="html"></summary></entry><entry><title type="html">Isle Of Mull</title><link href="https://lowfrequency.cc/cycle/isle-of-mull/" rel="alternate" type="text/html" title="Isle Of Mull" /><published>2020-09-06T00:00:00+00:00</published><updated>2020-09-06T00:00:00+00:00</updated><id>https://lowfrequency.cc/cycle/isle-of-mull</id><content type="html" xml:base="https://lowfrequency.cc/cycle/isle-of-mull/">&lt;p&gt;Overnight trip to Mull&lt;/p&gt;</content><author><name>@</name></author><category term="cycle" /><summary type="html">Overnight trip to Mull</summary></entry><entry><title type="html">Loch Ness</title><link href="https://lowfrequency.cc/cycle/loch-ness/" rel="alternate" type="text/html" title="Loch Ness" /><published>2020-09-06T00:00:00+00:00</published><updated>2020-09-06T00:00:00+00:00</updated><id>https://lowfrequency.cc/cycle/loch-ness</id><content type="html" xml:base="https://lowfrequency.cc/cycle/loch-ness/">&lt;div id=&quot;leaflet-map-54d7ed14de2bb7e74c712cab455a453f&quot; class=&quot;leaflet-map&quot;&gt;&lt;/div&gt;
 &lt;script&gt;(() =&gt; {
 // Specify configuration variables, setup any elements and styling
     var leafletCdn = &quot;https://unpkg.com/leaflet@1.6.0/dist/&quot;;
@@ -11,14 +11,14 @@
                }
 ;
     var blockLeafletItems = [
-    {id: &quot;e01eef579b9eb2b1228443628a93c83b&quot;,
+    {id: &quot;921122e505788bae5b9013de49e76175&quot;,
               type: &quot;LeafletGeoJSON&quot;,
               value: '/cycle/loch-ness/loch-ness.geojson' },
     {}
 ];
 
     // Override the map div id if specified, apply default CSS
-    var defaultMapElId = &quot;leaflet-map-2b94edbfce7c0f053c464f31fbc1c9a2&quot;;
+    var defaultMapElId = &quot;leaflet-map-54d7ed14de2bb7e74c712cab455a453f&quot;;
    var defaultMapElStyle = &quot;height:300px; margin-top:15px; margin-bottom:15px&quot;;
     var mapEl = document.getElementById(defaultMapElId);
     if('divId' in tagInputArg){
@@ -151,7 +151,7 @@
 
 //The actual section that is called that creates a map
     function createMap(){
-        console.log(&quot;Creating map 2b94edbfce7c0f053c464f31fbc1c9a2 with these args:&quot;);
+        console.log(&quot;Creating map 54d7ed14de2bb7e74c712cab455a453f with these args:&quot;);
         console.log(tagInputArg);
 
         //Initialize Map with the correct input arguments
