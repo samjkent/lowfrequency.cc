@@ -6,6 +6,8 @@
 body {
     min-height: 100vh;
     text-transform: lowercase;
+    font-family: monospace;
+    text-transform: lowercase;
 }
 
 div.post-featured-image {
@@ -28,6 +30,9 @@ div.post-featured-image span {
 
 h1 {
     margin: 1rem 0;
+    font-family: monospace;
+    text-transform: lowercase;
+
 }
 
 div.big-panels {
@@ -63,6 +68,9 @@ a.category-post-wrapper {
     color: #fff;
     font-size: 3rem;
     font-weight: 100;
+    font-family: monospace;
+    text-transform: lowercase;
+
 }
 
 .who {

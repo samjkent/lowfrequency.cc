@@ -1,15 +1,36 @@
 ---
 layout: default
 ---
-<div class="big-panels">
-<div class="climb home-panel">
-{% for post in site.categories.climb limit:1 %}
-<a href="/climb" style="background-image: url('{{ post.permalink }}{{ post.featured}}')">CLIMB</a>
+
+{% for page in site.posts %}
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+        <div class="post-featured-image" itemprop="articleImage" style="background-image: url('{{ page.url }}{{page.featured }}')" alt="{{page.featured_description}}">
+    <span>{{page.featured_description}}</span>
+  </div>
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            {{ page.trip_date }}
+      </time>
+    </p>
+    {% if page.who %}
+    <ul class="who">
+        {% for member in page.who %}
+        <li>{{ member }}{% if forloop.last != true %},{% endif %}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
+
 {% endfor %}
-</div>
-<div class="cycle home-panel">
-{% for post in site.categories.cycle limit:1 %}
-<a href="/cycle" style="background-image: url('{{ post.permalink }}{{ post.featured}}')">CYCLE</a>
-{% endfor %}
-</div>
-</div>
