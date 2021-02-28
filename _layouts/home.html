@@ -2,24 +2,28 @@
 layout: default
 ---
 
-{% for page in site.posts %}
+{% for post in site.posts %}
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-        <div class="post-featured-image" itemprop="articleImage" style="background-image: url('{{ page.url }}{{page.featured }}')" alt="{{page.featured_description}}">
-    <span>{{page.featured_description}}</span>
+  <a href="{{ post.permalink }}">
+  <div class="post-featured-image" itemprop="articleImage" style="background-image: url('{{ post.url }}{{post.featured }}')" alt="{{post.featured_description}}">
+    <span>{{post.featured_description}}</span>
   </div>
+  </a>
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <a href="{{ post.permalink }}">
+      <h1 class="post-title p-name" itemprop="name headline">{{ post.title | escape }}</h1>
+    </a>
     <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-            {{ page.trip_date }}
+      <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+            {{ post.trip_date }}
       </time>
     </p>
-    {% if page.who %}
+    {% if post.who %}
     <ul class="who">
-        {% for member in page.who %}
+        {% for member in post.who %}
         <li>{{ member }}{% if forloop.last != true %},{% endif %}</li>
         {% endfor %}
     </ul>
@@ -30,7 +34,6 @@ layout: default
     {{ content }}
   </div>
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
 {% endfor %}
