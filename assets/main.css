@@ -471,7 +471,12 @@ pre {
 
 body {
   min-height: 100vh;
+  text-transform: lowercase;
+  font-family: monospace;
   text-transform: lowercase; }
+
+a, a:hover, a:visited {
+  color: #000; }
 
 div.post-featured-image {
   min-height: 80vh;
@@ -489,7 +494,9 @@ div.post-featured-image span {
   padding: 0; }
 
 h1 {
-  margin: 1rem 0; }
+  margin: 1rem 0;
+  font-family: monospace;
+  text-transform: lowercase; }
 
 div.big-panels {
   display: flex; }
@@ -520,7 +527,9 @@ a.category-post-wrapper {
   justify-content: center;
   color: #fff;
   font-size: 3rem;
-  font-weight: 100; }
+  font-weight: 100;
+  font-family: monospace;
+  text-transform: lowercase; }
 
 .who {
   margin: 0; }
@@ -533,3 +542,6 @@ a.category-post-wrapper {
 
 .logo {
   height: 2.5rem; }
+
+.site-header {
+  border-bottom: none; }
