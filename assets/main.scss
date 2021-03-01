@@ -6,6 +6,12 @@
 body {
     min-height: 100vh;
     text-transform: lowercase;
+    font-family: monospace;
+    text-transform: lowercase;
+}
+
+a, a:hover, a:visited {
+    color: #000;
 }
 
 div.post-featured-image {
@@ -28,6 +34,9 @@ div.post-featured-image span {
 
 h1 {
     margin: 1rem 0;
+    font-family: monospace;
+    text-transform: lowercase;
+
 }
 
 div.big-panels {
@@ -63,6 +72,9 @@ a.category-post-wrapper {
     color: #fff;
     font-size: 3rem;
     font-weight: 100;
+    font-family: monospace;
+    text-transform: lowercase;
+
 }
 
 .who {
@@ -79,4 +91,8 @@ a.category-post-wrapper {
 
 .logo {
     height: 2.5rem;
+}
+
+.site-header {
+    border-bottom: none;
 }
