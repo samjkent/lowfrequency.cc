@@ -14,5 +14,3 @@ A two day trip around Lake Como and Lake Lugano.
 ![Lunch break in Como](como.jpg)
 
 ![Descent into Bellano](bellano.jpg)
-
-
